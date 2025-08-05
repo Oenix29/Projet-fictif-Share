@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/inscription.css">
+    <!-- titre de la page -->
+    <title>SHARE AI - Solutions d'Intelligence Artificielle</title>
+</head>
+
+<body> <!-- Début de la partie body-->
+    <header>
+        <div class="header-container">
+            <!-- Ici on retrouve le logo et la nav-->
+            <div class="logo">
+                <!--Le logo du site-->
+                <img src="../images/logo.svg" alt="logo"><br>
+                <!-- Ici on retrouve la nav-->
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="inscription.html" class="active">Inscription</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--La partie inscription-->
+    <main class="inscription-page">
+        <h1 class="titre">Inscription</h1>
+
+        <!-- "for" et "id" permettent de lier le label à l'input -->
+        <form class="formulaire">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" placeholder="Votre nom complet">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Votre adresse email">
+            <br>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" placeholder="Votre mot de passe">
+            <br>
+            <!-- input de type select -->
+            <label for="solution">Solution choisie</label>
+            <select id="solution">
+                <option value="Sélectionnez">Sélectionnez une solution</option>
+                <option value="share-code-ai">Share Code AI</option>
+                <option value="no-share-ai">No Share AI</option>
+                <option value="share-bot">Share Bot</option>
+            </select>
+            <br>
+            <input type="submit" value="S'inscrire"> <!--Le bouton d'inscription-->
+        </form> <!-- Fin de la partie inscription-->
+    </main> 
+
+    <footer class="footer"> <!-- Début de la partie footer-->
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email : contact@shareai.com</p>
+                <p>Téléphone : +33 1 23 45 67 89</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="../images/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="../images/x.svg" alt="Twitter"></a>
+                    <a href="#"><img src="../images/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="../images/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="Copyright">© 2025 SHARE AI. Tous droits réservés.</p>
+        </div>
+    </footer><!-- Fin de la partie footer-->
+</body> <!-- Fin de la partie body-->
+
+</html>

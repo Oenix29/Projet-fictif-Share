@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fond circulaire -->
+  <circle cx="50" cy="50" r="45" fill="#2563eb" />
+  
+  <!-- Tête de robot -->
+  <rect x="35" y="25" width="30" height="25" rx="5" fill="none" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Yeux du robot -->
+  <circle cx="45" cy="35" r="3" fill="#ffffff" />
+  <circle cx="55" cy="35" r="3" fill="#ffffff" />
+  
+  <!-- Antenne -->
+  <line x1="50" y1="25" x2="50" y2="20" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  <circle cx="50" cy="18" r="2" fill="#ffffff" />
+  
+  <!-- Corps du robot -->
+  <rect x="40" y="50" width="20" height="25" rx="3" fill="none" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Bouche/interface de communication -->
+  <line x1="40" y1="42" x2="60" y2="42" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Bras -->
+  <path d="M40 55 L30 50" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  <path d="M60 55 L70 50" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Bulles de dialogue (représentant la communication) -->
+  <circle cx="75" cy="35" r="5" fill="#ffffff" />
+  <circle cx="70" cy="25" r="3" fill="#ffffff" />
+</svg>

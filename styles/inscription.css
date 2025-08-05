@@ -1,0 +1,202 @@
+:root {
+    --color-primary: #3862f2;
+    --color-background: #ffffff;    
+    --color-footer: #1e293b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Partie header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 63px;
+}
+
+.header li {
+    margin: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 1,6rem;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* La nav fixe*/
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 0.5rem 5rem; /* déplace légèrement le logo vers la droite */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour chaque élément de la liste */
+nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/* Style pour les liens */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}   
+
+/* Style pour le lien actif */
+nav ul li a.active {
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.inscription-page {
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-top: 85px;
+}
+
+/* Le formulaire d'inscription */
+
+form {
+    margin-bottom: 80px;
+    padding: 32px;
+    margin-left: 254px;
+    margin-right: 254px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style pour le lien actif */
+nav ul li a:hover {
+    color: var(--color-primary);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+/* Style pour le bouton d'envoi */
+input[type="submit"] {
+    background-color: var(--color-primary);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+select {
+    width: 104%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    background-color: white;
+}
+
+/* Style pour le bouton d'envoi au survol */
+input[type="submit"]:hover {
+    background-color: #0a32b5;
+}
+
+/* Style pour le footer */
+
+/* Lien normal : Texte noir, sans soulignement */
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Partie footer */
+
+footer {
+    background-color: var(--color-footer);
+    color: white;
+    padding: 40px 20px 20px;
+    font-family: sans-serif;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    align-items: start;
+}
+
+.footer-section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1,7rem;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1,5rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}
+
