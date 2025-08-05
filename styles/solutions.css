@@ -1,4 +1,9 @@
-/* Header global */
+:root {
+    --color-primary: #3862f2;
+    --color-background: #ffffff;    
+    --color-footer: #1e293b;
+    
+}/* Header global */
 .header-container {
     position: fixed;
     top: 0;
@@ -65,7 +70,6 @@ nav ul li a.active {
     color: var(--color-primary);
     border-bottom: 2px solid var(--color-primary);
 }
-
 
 /* Style pour le conteneur principal */
 
@@ -293,11 +297,6 @@ img {
 }   
 
 /* Style pour le footer */
-:root {
-    --color-primary: #3862f2;
-    --color-background: #ffffff;    
-    --color-footer: #1e293b;
-}
 
 /* Lien normal : Texte noir, sans soulignement */
 nav ul li a {
