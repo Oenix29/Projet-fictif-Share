@@ -26,6 +26,27 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.hero-button {
+    background-color: white;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+
+.hero-button:hover {
+    background-color: white;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     padding-top: 60px; /* Espace pour ne pas que le contenu passe sous la nav */
@@ -273,7 +294,7 @@ img {
 
 .btn:hover {
     background-color: #114fb9 !important;
-border: none;
+    border: none;
     color: white !important;
 }
 
